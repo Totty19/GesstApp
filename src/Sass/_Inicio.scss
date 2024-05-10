@@ -1,0 +1,187 @@
+.Cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(14, 15, 17, 1);
+    h2{
+        font-size: 60px;
+        margin: 50px;
+    }
+}
+.Cont-Uno{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #001439;
+    padding: 65px;
+    color: $white;
+    gap: 10px;
+    .Gess{
+        display: flex;
+        justify-content: center;
+        width: 90px;
+        position: absolute;
+        margin-top: 470px;
+    }
+    h1{
+        font-size: 75px;
+        width: 60%;
+        b{
+            color: aqua;
+        }
+    }
+    h3{
+        font-size: 28px;
+        width: 60%;
+        color: gray;
+        b{
+            color: $white;
+        }
+    }
+    h4{
+        font-size: 16px;
+    }
+    .Link{
+        list-style: none;
+        text-decoration: none;
+        width: 12%;
+        padding: 20px;
+        margin-top: 10px;
+        font-size: 19px;
+        gap: 2px;
+        color: rgb(25, 86, 184);
+        background-color: $white;
+    }
+}
+
+.Dos{
+    background-color: rgba(10, 11, 12, 1);
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 22px;
+    .ContDos{
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        margin: 50px;
+        gap: 15px;
+        h4{
+            font-size: 40px;
+        }
+        h5{
+            font-size: 18px;
+            color: rgba(118, 118, 118, 1);
+        }
+    }
+    .ContImg{
+        margin: 50px;
+        box-sizing: border-box;
+        img{
+            border-radius: 25px;
+            width: 400px;
+            height: 350px;
+        }
+    }
+}
+
+.Btn{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 15px 45px;
+    font-size: 22px;
+    margin-top: 8px;
+    line-height: 26px; 
+    color: white;
+    background-color: rgba(0, 74, 119, 1);
+}
+
+.Cuatro{
+    background-color: rgba(10, 11, 12, 1);
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 22px;
+    padding: 80px;
+    margin: 20px;
+    h4{
+        padding: 20px;
+        font-size: 20px;
+        background-color: white;
+        border-radius: 6px;
+        color: rgba(0, 74, 119, 1);
+        font-size: 24px;
+        img{
+            width: 24px;
+        }
+    }
+}
+
+
+@media (max-width:1000px) {
+    .Cont-Uno{
+        h4{
+            font-size: 12px;
+        }
+        h1{
+            font-size: 32px;
+            width: 100%;
+        }
+        h3{
+            font-size: 16px;
+            width: 100%;
+        }
+        .Link{
+            font-size: 17px;
+            width: 50%;
+            padding: 12px;
+        }
+        .Gess{
+            margin-top: 380px;
+        }
+    }
+
+    .Cont{
+        text-align: center;
+        width: auto;
+        h2{
+            font-size: 35px;
+        }
+        .Dos{
+            .ContDos{
+                h4{
+                    font-size: 20px;
+                }
+                h5{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .Btn{
+        font-size: 16px;
+        margin: auto;
+    }
+
+    .ContImg{
+        display: none;
+    }
+
+    .Cuatro{
+        display: flex;
+        width: auto;
+        h4{
+            font-size: 14px;
+        }
+    }
+}

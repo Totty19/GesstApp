@@ -1,0 +1,9 @@
+export { Inicio } from './inicio';
+export { Login } from './login';
+export { Registro } from './registro';
+export { Servicios } from './servicios';
+export { Conocenos } from './conocenos';
+export { Verificacion } from './verificiacion'
+export { Gestores } from './gestores'
+export { Contactanos } from './contactanos'
+export { PerfilProf } from './perfilProfesional'
