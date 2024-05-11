@@ -150,3 +150,14 @@
         }
     }
 }
+
+@media (max-width:860px) {
+    .ContSer{
+        .ContPersonal{
+            width: 90%;
+            .Cont-p{
+                width: 100%;
+            }
+        }
+    }
+}

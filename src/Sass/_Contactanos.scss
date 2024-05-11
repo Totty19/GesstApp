@@ -19,3 +19,14 @@
         }
     }
 }
+
+@media (max-width:860px) {
+    .ContContacto{
+        .formContacto{
+            width: 80%;
+            .Btn{
+                width: 100%;
+            }
+        }
+    }
+}
